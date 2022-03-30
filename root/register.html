@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+
+    <!-- Icon -->
+    <link rel="icon" href="../images/logo.png">
+
+    <title>Регистрација | muschool.mk</title>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+    <!-- Container wrapper -->
+    <div class="container">
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="index.html">
+            <img src="../images/logo.png" alt="" width="40" height="40" class="d-inline-block align-text-center">
+            <span>muschool.mk</span>
+        </a>
+
+        <!-- Navbar toggler -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Nav links -->
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav text-white me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Почетна</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="materials.html">Материјали</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="quizzes.html">Квизови</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="register.html">Регистрација</a>
+                </li>
+            </ul>
+
+            <!-- Login -->
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginmodal">
+                Најави се
+            </button>
+        </div>
+    </div>
+</nav>
+
+<!-- Login modal -->
+<div>
+    <!-- Modal -->
+    <div class="modal fade" id="loginmodal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="ModalLabel">Најава</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="username" class="form-label">Корисничко име</label>
+                            <input type="email" class="form-control" id="username" aria-describedby="emailHelp"
+                                   placeholder="emilijan.koteski">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Лозинка</label>
+                            <input type="password" class="form-control" id="password">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="rememberme">
+                            <label class="form-check-label" for="rememberme">Запомни ме</label>
+                        </div>
+                        <a class="btn btn-primary" href="./loggedin.html">Најави се</a>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    Се уште немате сметка?
+                    <a class="btn btn-link p-0" href="./register.html">Регистрирај се!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Alerts-->
+<div class="container my-4">
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <h4 class="alert-heading">Моментално не може да се регистрирате.</h4>
+        Вратете се <a class="alert-link" href="index.html">назад.</a>
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+</div>
+
+<!-- Bootstrap Bundle with Popper -->
+<script src="../bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>

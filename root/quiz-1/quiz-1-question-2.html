@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
+
+    <!-- Icon -->
+    <link rel="icon" href="../../images/logo.png">
+
+    <title>Почетна | muschool.mk</title>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+    <!-- Container wrapper -->
+    <div class="container">
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="../loggedin.html">
+            <img src="../../images/logo.png" alt="" width="40" height="40" class="d-inline-block align-text-center">
+            <span>muschool.mk</span>
+        </a>
+
+        <!-- Navbar toggler -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Nav links -->
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav text-white me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="../loggedin.html">Почетна</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../materials.html">Материјали</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../quizzes.html">Квизови</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav text-white ms-auto mb-2 mb-lg-0">
+                <!-- Profile info -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="../../images/profile-picture.png" alt="" width="25" height="25"
+                             class="d-inline-block align-text-center">
+                        <span>emilijan.koteski</span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item disabled" href="#">Профил</a></li>
+                        <li><a class="dropdown-item disabled" href="#">Подесувања</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="index.html">Одјави се</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+<!-- Quiz -->
+<div class="container">
+    <!-- Image -->
+    <div class="row my-2">
+        <div class="col d-flex justify-content-center">
+            <img class="img-fluid" src="../../images/quiz-photo-face_muscles.jpg" alt="face-muscles">
+        </div>
+    </div>
+
+    <!--Progress-->
+    <div class="container">
+        <div class="progress">
+            <div class="progress-bar bg-primary progress-bar-striped w-50">
+                <span>50%</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Question -->
+    <div class="row my-2">
+        <div class="container">
+            <h1 class="display-6">Кои мускули се преставени со броевите 12, 13, и 14?</h1>
+            <div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Џвакални мускули
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        Мимични мускули
+                    </label>
+                </div>
+            </div>
+
+            <!--Pagination-->
+            <div class="container">
+                <ul class="pagination d-flex justify-content-center">
+                    <li class="page-item"><a href="quiz-1-question-1.html" class="page-link">Прет.</a></li>
+                    <li class="page-item"><a href="quiz-1-question-1.html" class="page-link">1</a></li>
+                    <li class="page-item active"><a aria-current="page" href="quiz-1-question-2.html" class="page-link">2</a></li>
+                    <li class="page-item"><a href="quiz-1-end.html" class="page-link">Заврши</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Bootstrap Bundle with Popper -->
+<script src="../../bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>

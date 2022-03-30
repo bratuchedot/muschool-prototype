@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
+
+    <!-- Icon -->
+    <link rel="icon" href="../../images/logo.png">
+
+    <title>Почетна | muschool.mk</title>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+    <!-- Container wrapper -->
+    <div class="container">
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="../loggedin.html">
+            <img src="../../images/logo.png" alt="" width="40" height="40" class="d-inline-block align-text-center">
+            <span>muschool.mk</span>
+        </a>
+
+        <!-- Navbar toggler -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Nav links -->
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav text-white me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="../loggedin.html">Почетна</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../materials.html">Материјали</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../quizzes.html">Квизови</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav text-white ms-auto mb-2 mb-lg-0">
+                <!-- Profile info -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="../../images/profile-picture.png" alt="" width="25" height="25" class="d-inline-block align-text-center">
+                        <span>emilijan.koteski</span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item disabled" href="#">Профил</a></li>
+                        <li><a class="dropdown-item disabled" href="#">Подесувања</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="index.html">Одјави се</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+<!--Alerts-->
+<div class="container my-4">
+    <div class="alert alert-primary alert-dismissible fade show" role="alert">
+        <h4 class="alert-heading">Успешно го завршивте квизот.</h4>
+        Вратете се <a class="alert-link" href="../quizzes.html">назад.</a>
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+</div>
+
+<!-- Bootstrap Bundle with Popper -->
+<script src="../../bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>
